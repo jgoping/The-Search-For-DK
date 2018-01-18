@@ -5,6 +5,7 @@ windowX = 240
 windowY = 70
 import os
 os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (windowX,windowY)
+os.chdir("photos")
 
 pygame.init()
 
